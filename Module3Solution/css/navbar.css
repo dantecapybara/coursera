@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-header {
+  border: 0;
+}
+
+.navbar-default {
+  background-color: #323635;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-top: 20px;
+  font-size: 50px;
+  color: white !important;
+  font-family: 'Russo One', sans-serif;
+}
+
+.inner {
+  background-color: black;
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Noto Serif', serif;
+}
+
+.inner p {
+  padding: 5px;
+}
+
+#menu {
+  font-family: 'Russo One', sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .navbar-collapse
+    {
+        background-color: gainsboro;
+    }
+}
