@@ -47,7 +47,7 @@ body {
   font-family: 'Russo One', sans-serif;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767px) {
   .navbar-brand {
     font-size: 30px;
   }
